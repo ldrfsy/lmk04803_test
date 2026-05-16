@@ -17,7 +17,7 @@ output   reg         sync
     );
      
 parameter     SYS_CLK               = 100_000_000 ,
-               SPI_CLK               = 10_000_000  ;
+               SPI_CLK               = 5_000_000  ;
 localparam     delay = SYS_CLK/SPI_CLK-1; //sys_clk divide parameter 
     
 reg [5:0] cnt,cnt_sck,spi_bit_next;
