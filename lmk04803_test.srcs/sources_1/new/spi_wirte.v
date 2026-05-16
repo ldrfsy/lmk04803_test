@@ -10,7 +10,6 @@ input              init_done                    ,
 input              init_spi_end                 ,
 output reg [31:0]  data_reg 
     );
-// wire data_in_i;
 //data_reg:VCO,1840~2030Mhz;
 always @(posedge clk or negedge rst)
     begin
