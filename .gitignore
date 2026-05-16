@@ -1,0 +1,7 @@
+# Vivado 生成目录（不提交）
+.Xil/
+lmk04803_test.cache/
+lmk04803_test.hw/
+lmk04803_test.ip_user_files/
+lmk04803_test.runs/
+lmk04803_test.sim/
