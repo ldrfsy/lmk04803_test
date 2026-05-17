@@ -40,7 +40,7 @@ tx_spi tx_spi_inst(
 . mosi         (mosi        )
     );
     
-spi_wirte spi_wirte_inst(  
+spi_write spi_wirte_inst(  
 .clk           (clk         )               ,  
 .rst           (rst         )               ,  
 .cnt_reg       (cnt_reg     )               ,  
